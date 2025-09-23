@@ -1,6 +1,7 @@
 conda create --name nnunet python=3.8 -y
 conda activate nnunet
 conda install pytorch torchvision torchaudio pytorch-cuda=11.6 -c pytorch -c nvidia -y
+conda install pytorch torchvision torchaudio 
 
 pip install numpy==1.23
 pip install monai
