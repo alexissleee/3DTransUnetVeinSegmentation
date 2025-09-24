@@ -37,7 +37,7 @@ for subset, task_name in tasks.items():
         print(f"Skipping {subset}, imgs or masks folder missing")
         continue
 
-    output_root = os.path.join("nnUNet_raw_data", task_name)
+    output_root = os.path.join("nnUNet_raw_data_base", task_name)
     output_image_dir = os.path.join(output_root, "imagesTr")
     output_mask_dir = os.path.join(output_root, "labelsTr")
 
