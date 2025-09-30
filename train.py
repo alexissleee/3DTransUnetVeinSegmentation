@@ -145,8 +145,9 @@ def main():
     
     # debug
 
-    args_config, _ = parser.parse_known_args() # expect return 'remaining' standing for the namspace from launch? but not...
+    args_config, remaining = parser.parse_known_args() # expect return 'remaining' standing for the namspace from launch? but not...
    
+
     # if args_config.config:
     with open(args_config.config, 'r') as f:
         cfg = yaml.safe_load(f)

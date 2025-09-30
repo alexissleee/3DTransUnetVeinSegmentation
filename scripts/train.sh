@@ -1,9 +1,9 @@
 
 export nnUNet_N_proc_DA=36
-export nnUNet_codebase="/home/myname/code/nnUNet" # replace to your codebase
-export nnUNet_raw_data_base="/data1/data/nnUNet_raw_data_base/" # replace to your database
-export nnUNet_preprocessed="/data1/data/nnUNet_raw_data_base/nnUNet_preprocessed"
-export RESULTS_FOLDER="/home/myname/results/"
+export nnUNet_codebase="/Users/alee/UCLA/Research/IRISS/3D-TransUNet/nn_transunet" # replace to your codebase
+export nnUNet_raw_data_base="/Users/alee/UCLA/Research/IRISS/3D-TransUNet/nn_transunet/data/nnUNet_raw_data_base/" # replace to your database
+export nnUNet_preprocessed="/Users/alee/UCLA/Research/IRISS/3D-TransUNet/nn_transunet/data/nnUNet_preprocessed"
+export RESULTS_FOLDER="/Users/alee/UCLA/Research/IRISS/3D-TransUNet/nn_transunet/data/results/"
 
 
 CONFIG=$1

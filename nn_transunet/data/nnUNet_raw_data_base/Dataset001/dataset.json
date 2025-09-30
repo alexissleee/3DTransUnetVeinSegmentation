@@ -1,0 +1,17 @@
+{
+    "channel_names": {
+        "0": "G"
+    },
+    "labels": {
+        "background": 0,
+        "object": 1
+    },
+    "numTraining": 293,
+    "file_ending": ".nii.gz",
+    "licence": "Whoever converted this dataset was lazy and didn't look it up!",
+    "converted_by": "Please enter your name, especially when sharing datasets with others in a common infrastructure!",
+    "name": "Task001_MyData",
+    "modalities": {
+        "0": "G"
+    }
+}

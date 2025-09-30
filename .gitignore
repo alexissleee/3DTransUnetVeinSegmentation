@@ -1,2 +1,4 @@
 3DTransUNet_venv/
 **/.DS_Store
+**/.__pycache__
+nnUNet_venv/
